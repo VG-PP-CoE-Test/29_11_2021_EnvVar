@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CanvasApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>cr63b_29112021canvasapp_b2fe2</Name>
+  <AppVersion>2021-11-29T10:06:39Z</AppVersion>
+  <Status>Ready</Status>
+  <CreatedByClientVersion>3.21112.22.0</CreatedByClientVersion>
+  <MinClientVersion>3.21112.22.0</MinClientVersion>
+  <Tags>{"primaryDeviceWidth":"1366","primaryDeviceHeight":"768","sienaVersion":"aa346cec-027b-4266-9c81-35376c9446df","deviceCapabilities":"","supportsPortrait":"true","supportsLandscape":"true","primaryFormFactor":"Tablet","publisherVersion":"3.21112.22","minimumRequiredApiVersion":"2.2.0","hasComponent":"false","hasUnlockedComponent":"false","isUnifiedRootApp":"false"}</Tags>
+  <IsCdsUpgraded>0</IsCdsUpgraded>
+  <GalleryItemId xsi:nil="true"></GalleryItemId>
+  <BackgroundColor>RGBA(0,176,240,1)</BackgroundColor>
+  <DisplayName>29_11_2021_CanvasApp</DisplayName>
+  <Description xsi:nil="true"></Description>
+  <CommitMessage xsi:nil="true"></CommitMessage>
+  <Publisher xsi:nil="true"></Publisher>
+  <AuthorizationReferences>[]</AuthorizationReferences>
+  <ConnectionReferences>{"3e0209d4-3805-46aa-89fb-5c378397400d":{"id":"/providers/microsoft.powerapps/apis/shared_sharepointonline","displayName":"SharePoint","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1533/1.0.1533.2600/sharepointonline/icon.png","dataSources":["29_11_2021_SPO_List"],"dependencies":[],"dependents":[],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{"https://volvogroup.sharepoint.com/sites/proj-coe_dev":{"datasetOverride":{"name":"https://volvogroup.sharepoint.com/sites/proj-coe_dev","environmentVariableName":"cr63b_29_11_2021_SPO_Site"},"dataSources":{"29_11_2021_SPO_List":{"tableName":"37079a07-adf8-442c-a38d-95235e781a6a","tableNameOverride":{"name":"37079a07-adf8-442c-a38d-95235e781a6a","environmentVariableName":"cr63b_29_11_2021_SPO_List"}}}}},"apiTier":"Standard","actions":["providers/PowerPlatform.Governance/Operations/Read"]},"ebab3455-1570-42e6-be25-ebc322ba61b8":{"id":"/providers/microsoft.powerapps/apis/shared_logicflows","displayName":"Logic flows","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1534/1.0.1534.2605/logicflows/icon.png","dataSources":["29_11_2021_Flow"],"dependencies":["2f6e2a1f-317d-4280-99cb-68486abd003a"],"dependents":[],"parameterHints":{"workflowName":{"value":"ded76cf7-7fc2-466f-9f49-714962418a76"},"workflowEntityId":{"value":"036bd9a8-fb50-ec11-8c62-000d3ab52efd"},"2f6e2a1f-317d-4280-99cb-68486abd003a":{"value":"shared_sharepointonline"}},"parameterHintsV2":{"workflowName":{"value":"ded76cf7-7fc2-466f-9f49-714962418a76"},"workflowEntityId":{"value":"036bd9a8-fb50-ec11-8c62-000d3ab52efd"},"shared_sharepointonline":{"value":"2f6e2a1f-317d-4280-99cb-68486abd003a"}},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard","actions":["Run"]},"2f6e2a1f-317d-4280-99cb-68486abd003a":{"id":"/providers/microsoft.powerapps/apis/shared_sharepointonline","displayName":"SharePoint","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1533/1.0.1533.2600/sharepointonline/icon.png","dataSources":[],"dependencies":[],"dependents":["ebab3455-1570-42e6-be25-ebc322ba61b8"],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard","actions":["providers/PowerPlatform.Governance/Operations/Read"]}}</ConnectionReferences>
+  <DatabaseReferences>{}</DatabaseReferences>
+  <AppComponents>[]</AppComponents>
+  <AppComponentDependencies>[]</AppComponentDependencies>
+  <CanConsumeAppPass>1</CanConsumeAppPass>
+  <CanvasAppType>0</CanvasAppType>
+  <BypassConsent>0</BypassConsent>
+  <AdminControlBypassConsent>0</AdminControlBypassConsent>
+  <EmbeddedApp xsi:nil="true"></EmbeddedApp>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <CdsDependencies>{"cdsdependencies":[{"logicalname":"cr63b_29_11_2021_SPO_Site","componenttype":380,"componenttypeplatformname":"EnvironmentVariableDefinition"},{"logicalname":"cr63b_29_11_2021_SPO_List","componenttype":380,"componenttypeplatformname":"EnvironmentVariableDefinition"}]}</CdsDependencies>
+  <IsCustomizable>1</IsCustomizable>
+  <BackgroundImageUri>/CanvasApps/cr63b_29112021canvasapp_b2fe2_BackgroundImageUri</BackgroundImageUri>
+  <DocumentUri>/CanvasApps/cr63b_29112021canvasapp_b2fe2_DocumentUri.msapp</DocumentUri>
+</CanvasApp>
